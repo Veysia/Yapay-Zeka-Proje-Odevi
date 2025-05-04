@@ -1,4 +1,5 @@
 ÖNEMLİ! Paylaşılan kodda veri çekmek için dosya yolu kullanılmıştır. Kodda hata olması ihtimaline karşı ham veri setini de yükledim, veri setini indirip yol olarak kopyalayıp tekrar deneyebilirsiniz.
+
 ➤ Bu projede Türkçe Tweet verileri kullanılarak metin temizleme, TF-IDF ve Word2Vec ile metin vektörleştirme işlemleri yapılmıştır.
 
 ➤ Amaç
