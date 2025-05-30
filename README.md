@@ -48,3 +48,16 @@ from collections import Counter
 · nltk.stopwords ile Türkçe sık kullanılan kelimeler filtrelenmiştir.
 · str.translate ve string.punctuation kullanılarak noktalama işaretleri temizlenmiştir.
 · Lemmatize edilmiş ve stem'lenmiş cümleler ayrı CSV dosyalarına kaydedilmiştir
+
+➤Python Ortamında Word2Vec ve TF-IDF ile Benzerlik Analizi 
+· Verileri hazırlayın:
+lemmatized_sentencess.csv ve stemmed_sentencess.csv dosyalarının proje klasöründe bulunduğundan emin olun.
+· Modelleri yükleyin:
+word2vec_model_dosyaları/ klasörü altında önceden eğitilmiş .model uzantılı Word2Vec modelleri yer almalıdır.
+· Ana script'i çalıştırın: python main.py
+· Çalışma sonunda:
+Giriş tweet’ine göre her modelin en benzer 5 tweet’i listelenir.
+Cosine benzerlik skorları hesaplanır.
+Jaccard benzerlik matrisleri oluşturulur.
+Anlamsal değerlendirme puanı hesaplaması için şablonlar hazırlanır.
+
